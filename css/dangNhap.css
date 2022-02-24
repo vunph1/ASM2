@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+
+header{
+    width: 980px;
+    height: 150px;
+    text-align: center;
+    background-image: url('./kogian.jpg');
+    background-size: 100% 400%;
+}
+header .truyencm ul{
+    list-style: none;
+}
+.container .truyencm ul li a:hover{
+    color: red;
+}
+header .truyencm ul li{
+    float: right;
+    line-height: 50px;
+    padding-top: 0%;
+}
+header .truyencm ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 3px;
+}
+nav{
+    height: 35px;
+    background: blue;
+}
+nav .menu ul{
+    list-style: none;
+}
+nav .menu ul li{
+    float: left;
+    line-height: 35px;
+    padding: 0 15px;
+}
+nav .menu ul li a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    font-size: large;
+}
+nav .search{
+    line-height: 35px;
+    float: right;
+    margin-right: 25px;
+}
+nav .menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+nav .menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+nav .menu>ul>li:hover>ul{
+    display: block;
+}
+.container nav .menu ul ul a:hover{
+    color: yellow;
+}
+/* code article*/
+h3{
+    text-align: center;
+}
+article{
+    text-align: center;
+    background-color: aliceblue;
+}
+.form-group .control-label{
+    font-weight: 400;
+}
+article label{
+    margin-bottom: 5px;
+}
+.form-group a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.form-control{
+    height: 38px;
+    width: 400px;
+}
+a.button{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: yellow;
+    text-decoration: none;
+    border-radius: 20px;
+}
+a.button-1{
+    display: inline-block;
+    height: 30px;
+    padding: 8px 16px;
+    background-color: blue;
+    text-decoration: none;
+    border-radius: 20px;
+}
+a.button-2{
+    display: inline-block;
+    height: 30px;
+    padding: 8px 16px;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.button-text{
+    color: white;
+}
+.button-text:hover{
+    background-color: gray;
+}
+/*Kết thúc code*/
+footer{
+    height: 180px;
+    background: #272f54;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: blue;
+    text-decoration: underline;
+}

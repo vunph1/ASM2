@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+
+header{
+    width: 980px;
+    height: 150px;
+    text-align: center;
+    background-image: url('./kogian.jpg');
+    background-size: 100% 400%;
+}
+header .truyencm ul{
+    list-style: none;
+}
+header .truyencm ul li{
+    float: right;
+    line-height: 50px;
+    padding-top: 0%;
+}
+header .truyencm ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 3px;
+}
+nav{
+    height: 35px;
+    background: blue;
+}
+nav .menu ul{
+    list-style: none;
+}
+.container .truyencm ul li a:hover{
+    color: red;
+}
+nav .menu ul li{
+    float: left;
+    line-height: 35px;
+    padding: 0 15px;
+}
+nav .menu ul li a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    font-size: large;
+}
+nav .search{
+    line-height: 35px;
+    float: right;
+    margin-right: 25px;
+}
+nav .menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+nav .menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+nav .menu>ul>li:hover>ul{
+    display: block;
+}
+.container nav .menu ul ul a:hover{
+    color: yellow;
+}
+article{
+    background-color: aliceblue;
+}
+article h3{
+    left: 0px;
+    padding: 15px 0px;
+}
+article .th-truyen .new-truyen{
+    width: 28%;
+    padding: 12px;
+    float: left;
+    border: 1px solid gray;
+    margin-right: 4%;
+}
+article .th-truyen .new-truyen a{
+    text-decoration: none;
+}
+article .th-truyen .new-truyen img{
+    margin: 10px auto;
+}
+#fix{
+    margin-right: 0;
+}
+footer{
+    height: 180px;
+    background: #272f54;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: blue;
+    text-decoration: underline;
+}
